@@ -1,5 +1,12 @@
-Varnish experiments
--------------------
+## Varnishings
+
+### Dependencies
+
+    brew install node
+    brew install varnish
+    pip install bottle
+
+### Usage
 
 Start a slow Python server (port 8090):
 
