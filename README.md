@@ -11,7 +11,7 @@ Start a fast Node server (port 8089):
 
 Start Varnish in the foreground (port 8088):
 
-    /usr/local/sbin/varnishd -a 0.0.0.0:8088 -f slow.vcl -s malloc,50MB -F
+    /usr/local/sbin/varnishd -a 0.0.0.0:8088 -f join.vcl -s malloc,50MB -F
 
 Compare response times:
 
